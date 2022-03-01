@@ -1,0 +1,134 @@
+body {
+  background-color: #121212;
+  font: 24px 'Century Gothic', Futura, sans-serif;
+  margin: 0px !important;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game .header {
+  background-color: #323232;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.game .header p {
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+}
+
+.MuiFormControl-root {
+  border: 1px solid #fff !important;
+  border-radius: 4px;
+  color: #fff;
+  width: 100%;
+}
+
+.score-board {
+  padding: 80px !important;
+}
+
+.MuiFormControl-root input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.MuiFormControl-root label {
+  color: #fff;
+}
+
+.data-entry {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.data-entry Button {
+  background-color: #413C69;
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+  width: 200px;
+}
+
+.data-entry Button:hover {
+  background-color: #413C69;
+}
+
+.square {
+  background: #121212;
+  border-radius: 5px;
+  border: 1px solid #999;
+  color: #8E05C2;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  height: 80px;
+  line-height: 34px;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+}
+
+.square--green {
+  background: #EEEEEE;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-board {
+  align-items: center;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+}
+
+.game-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game div:nth-child(2) {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.button {
+  background-color: #555555;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button--new-game {
+  background-color: #413C69;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  width: 200px;
+}
